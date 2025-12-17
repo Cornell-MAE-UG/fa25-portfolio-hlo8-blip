@@ -3,13 +3,13 @@ layout: project
 title: Small Wind Turbine Blade Design
 description: Final Class Project
 technologies: [Autodesk Fusion, MATLAB, Wind Tunnel, LabView]
-image: /assets/images/pr-graph.png
+image: /assets/images/photo.png
 ---
 ## MAE 4272 – Fluids and Heat Transfer Laboratory, Cornell University
 ---
 #### Project Overview
 
-As part of MAE 4272, our team designed, fabricated, and tested blades for a small-scale horizontal-axis wind turbine. The objective was to maximize power extraction while satisfying geometric, material, and operational constraints imposed by a laboratory wind tunnel environment. Rather than optimizing performance at a single wind speed, the blade was designed for operation in a realistic wind environment described by a Weibull distribution, reflecting how turbines operate in practice. The project combined aerodynamic theory, numerical modeling, CAD design, and experimental testing.
+As part of MAE 4272, our team designed, fabricated, and tested blades for a small-scale horizontal-axis wind turbine. The objective was to maximize power extraction while satisfying geometric, material, and operational constraints imposed by a laboratory wind tunnel environment. Rather than optimizing performance at a single wind speed, the blade was designed for operation in a realistic wind environment described by a Weibull distribution, reflecting how turbines operate in practice. The project combined aerodynamic theory, numerical modeling, CAD design, and experimental testing and was done to improve our insight and understanding of these topics.
 
 #### Design Process
 
@@ -22,6 +22,8 @@ The final three-blade rotor was manufactured and tested in the Bellis Lab wind t
 ![Power vs Rotation Rate]({{ "/assets/images/pr-graph.png" | relative_url }}){: .inline-image}
 
 ![Power vs Velocity]({{ "/assets/images/pv-graph.png" | relative_url }}){: .inline-image}
+
+![ CAD ]({{ "/assets/images/cad.png" | relative_url }}){: .inline-image}
 
 ####  My Contribution
 
