@@ -1,25 +1,31 @@
 ---
 layout: project
-title: Radio CAD Rendering
-description: Advanced CAD Project
-technologies: [Autodesk Fusion]
-image: /assets/images/radio-machine-cad.jpg
+title: Small Wind Turbine Blade Design
+description: Final Class Project
+technologies: [Autodesk Fusion, MATLAB, Wind Tunnel, LabView]
+image: /assets/images/blade.jpg
 ---
+## MAE 4272 – Fluids and Heat Transfer Laboratory, Cornell University
+---
+#### Project Overview
 
-For a class, we were asked to CAD a complex object. This design was...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. 
+As part of MAE 4272, our team designed, fabricated, and tested blades for a small-scale horizontal-axis wind turbine. The objective was to maximize power extraction while satisfying geometric, material, and operational constraints imposed by a laboratory wind tunnel environment. Rather than optimizing performance at a single wind speed, the blade was designed for operation in a realistic wind environment described by a Weibull distribution, reflecting how turbines operate in practice. The project combined aerodynamic theory, numerical modeling, CAD design, and experimental testing.
 
-Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+#### Design Process
 
-![Shaded rendering of earlier version]({{ "/assets/images/radio-machine.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
+We developed the blade geometry using Blade Element Momentum (BEM) and Blade Element Theory (BET), implemented through a custom MATLAB code that generated chord and twist distributions along the blade span. Multiple cambered airfoils were evaluated under consistent assumptions, informed by prior lab results showing that cambered airfoils provide higher lift and torque at comparable operating conditions. Key design decisions included tapering the chord to reduce drag and inertial loading toward the blade tip, and introducing spanwise twist to maintain a near-constant angle of attack. Based on predicted power output, torque, and structural stress, the NACA 4412 airfoil was selected as the final design.
 
-Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+#### Testing and Results
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+The final three-blade rotor was manufactured and tested in the Bellis Lab wind tunnel across five fan frequencies corresponding to wind speeds that capture roughly 70% of the Weibull probability mass. Power and rotational speed were measured under increasing torque loads to generate Power vs. RPM curves. Because experimental limitations prevented collecting data at all RPMs for every wind speed, third-order polynomial fits constrained through the origin were used to interpolate performance at a constant operating speed. The resulting Power vs. Velocity trend showed increasing power with wind speed, consistent with theoretical expectations, and demonstrated that the blade performed near its intended design condition.
 
-I was inspired by this old radio when I made this rendering:
+![Power vs Rotation Rate]({{ "/assets/images/pr-graph.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
 
-![Photo of old radio]({{ "/assets/images/old-radio.jpg" | relative_url }}){: .inline-image-l}
+![Power vs Velocity]({{ "/assets/images/pv-graph.jpg" | relative_url }}){: .inline-image-l}
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+####  My Contribution
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+I focused on the CAD and data analysis portions of the project. This included creating the final blade geometryu, comparing candidate airfoil geometries, post-processing wind tunnel data, and generating the interpolated Power vs. Velocity results used for final performance evaluation. I also contributed to interpreting experimental limitations and connecting test results back to the design assumptions.
+
+
+

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Your Name> - Curriculum Vitae
+title: Hastings Otieno - CV
 permalink: /cv/
 ---
 ## Curriculum Vitae
