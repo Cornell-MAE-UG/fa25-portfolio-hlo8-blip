@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Small Wind Turbine Blade Design
+title: MAE 4272 Portfolio
 description: Final Class Project
 technologies: [Autodesk Fusion, MATLAB, Wind Tunnel, LabView]
 image: /assets/images/cad.png
