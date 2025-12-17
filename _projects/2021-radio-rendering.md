@@ -19,10 +19,10 @@ We developed the blade geometry using Blade Element Momentum (BEM) and Blade Ele
 
 The final three-blade rotor was manufactured and tested in the Bellis Lab wind tunnel across five fan frequencies corresponding to wind speeds that capture roughly 70% of the Weibull probability mass. Power and rotational speed were measured under increasing torque loads to generate Power vs. RPM curves. Because experimental limitations prevented collecting data at all RPMs for every wind speed, third-order polynomial fits constrained through the origin were used to interpolate performance at a constant operating speed. The resulting Power vs. Velocity trend showed increasing power with wind speed, consistent with theoretical expectations, and demonstrated that the blade performed near its intended design condition.
 <figure>
-<img src="/assets/images/pr-graph.png" width="750" height="500">
+<img src="/assets/images/pr-graph.png" width="750" height="450">
 </figure>
 <figure>
-<img src="/assets/images/pv-graph.png" width="750" height="500">
+<img src="/assets/images/pv-graph.png" width="750" height="450">
 </figure>
 
 ####  My Contribution
