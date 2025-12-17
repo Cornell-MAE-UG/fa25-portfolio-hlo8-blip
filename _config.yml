@@ -8,12 +8,12 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : Hastings Otieno Portfolio
+title                    : Hastings L. Otieno's Portfolio
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : Hastings Otieno
+name                     : Hastings L. Otieno
 description              : Hastings Otieno - Projects and CV 
-baseurl                  : "" # Set this to your repo name 
+baseurl                  : "/fa25-portfolio-hlo8-blip/" # Set this to your repo name 
 
 # Theme and Style
 theme: jekyll-theme-minimal
