@@ -3,7 +3,7 @@ layout: project
 title: Small Wind Turbine Blade Design
 description: Final Class Project
 technologies: [Autodesk Fusion, MATLAB, Wind Tunnel, LabView]
-image: /assets/images/photo.png
+image: /assets/images/cad.png
 ---
 ## MAE 4272 – Fluids and Heat Transfer Laboratory, Cornell University
 ---
@@ -23,7 +23,7 @@ The final three-blade rotor was manufactured and tested in the Bellis Lab wind t
 
 ![Power vs Velocity]({{ "/assets/images/pv-graph.png" | relative_url }}){: .inline-image}
 
-![ CAD ]({{ "/assets/images/cad.png" | relative_url }}){: .inline-image}
+![ CAD ]({{ "/assets/images/photo.png" | relative_url }}){: .inline-image}
 
 ####  My Contribution
 
